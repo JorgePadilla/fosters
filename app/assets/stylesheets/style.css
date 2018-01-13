@@ -42,7 +42,7 @@ nav a:focus {
 	outline: none;
 }
 .header {
-    background: #00AD8A;
+    background: #AD2E00;
 }
 .navbar-default {
     background: none;
@@ -52,7 +52,7 @@ nav a:focus {
     min-height: auto;  
 }
 .navbar-default .navbar-nav > .active > a{
-    color: #000;
+    color: #47341C;
     background:none;
 	padding: 10px 0;
 }
@@ -61,7 +61,7 @@ div#bs-example-navbar-collapse-1 {
 }
  .navbar-default .navbar-nav > .active > a:hover,
  .navbar-default .navbar-nav > .active > a:focus {
-    color:  #222;
+    color:  #F95519;
     background:none;
 }
 .navbar-default .navbar-nav > li > a {
@@ -85,14 +85,14 @@ div#bs-example-navbar-collapse-1 {
 }
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus {
-    color: #000;
+    color: #F95519;
     background: none;
     outline: none;
 }
 .navbar-default .navbar-nav > .open > a,
  .navbar-default .navbar-nav > .open > a:hover, 
  .navbar-default .navbar-nav > .open > a:focus {
-    color:  #000;
+    color:  #47341C;
     background:none;
 }
 .dropdown-menu {
@@ -112,7 +112,7 @@ div#bs-example-navbar-collapse-1 {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     color:  #0066B2;
     text-decoration: none;
-    background-color: #FFFFFF;
+    background-color: #47341C;
 }
 .welcome,.about-section,.gallery,.page,.restaurant  {
     padding: 5em 0;
