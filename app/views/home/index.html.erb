@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="container">
 							<div class="banner-text">
-								<h3>Outdoor & Indoor Luxury</h3>
+								<h3>Vacations In Paradise</h3>
 							</div>
 						</div>
 					</li>
@@ -63,7 +63,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="container">
 							<div class="banner-text">
-								<h3>Luxury & Oriental Harmony</h3>
+								<h3>Beach Full of White Sand</h3>
 							</div>
 						</div>
 					</li>
@@ -120,11 +120,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						  <ul class="nav navbar-nav">
 							<li class="active">
-								<a href="#" data-hover="Home">Home</a></li>
+								<%= link_to("Home",root_path, {"data-hover" => "Home", method: :get}) %>
+								
 							<li><a href="about.html" data-hover="About">About</a></li>
 							<li><a data-hover="Restaurant" href="restaurant.html">Restaurant</a></li>
 							<li><a data-hover="Gallery" href="gallery.html">Gallery</a></li>
-							<li><a data-hover="Rooms" href="rooms.html">Rooms</a></li>
+							<li><%= link_to("Rooms",rooms_path, {"data-hover" => "Rooms", method: :get}) %></li>
+						
 							  <li><a  href="codes.html" data-hover="codes">Codes</a></li>
 							 <li><a data-hover="Contact" href="contact.html">Contact</a></li>
 							 
@@ -508,6 +510,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="#"><i class="icon1"></i></a>
 						<a href="#"><i class="icon2"></i></a>
 						<a href="#"><i class="icon3"></i></a>
+						<a href="#"><i class="icon4"></i></a>
 					</div>
 				</div>
 			</div>

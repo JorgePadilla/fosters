@@ -57,3 +57,4 @@ gem 'therubyracer'
 gem 'execjs'
 gem 'activeadmin'
 gem "thin"
+gem 'font-awesome-sass', '~> 4.7.0'
